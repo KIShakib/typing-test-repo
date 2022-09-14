@@ -1,4 +1,4 @@
-console.log("Everything is Connected from history.js");
+// console.log("Everything is Connected from history.js");
 
 const histories = document.getElementById("histories");
 
