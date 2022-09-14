@@ -93,6 +93,9 @@ body {
 .bold {
   font-weight: 700;
 }
+.took-sec{
+  color: #9dffad;
+}
 .inactive {
   border: 2px solid white !important;
 }
