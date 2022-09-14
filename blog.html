@@ -91,6 +91,24 @@
               </div>
             </div>
             
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed fw-bold fs-3 text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                How Event Loop work?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                The <b>Event Loop</b> is a browser mechanism which run JavaScript asynchronous programme. JavaScript is a single-thread programming language. So it cann't run a synchronous & asynchronous code at a time. But by the help of browser using Event Loop it can handle asynchronous behaviour.
+                The <b>Call Stack</b>
+                keep track of all the the function or code to be executed. When a function is finished, it is popped up from the stack.
+                The <b>Queue</b> send new function to the stack. It's follow the data structure to maintain the correct sequence.
+                Whenever an asynchronous function is called, it is sent to a browser API. These APIs built into the browser. Based on the command received from the call stack, the API start its own single-threaded operation. That is how Event Loop work.
+              </div>
+            </div>
+          </div>
+
+
             
 </div>
 <!-- JavaScript Bundle with Popper -->
