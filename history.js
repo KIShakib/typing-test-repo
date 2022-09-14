@@ -1,3 +1,5 @@
+console.log("Everything is Connected from history.js");
+
 const histories = document.getElementById("histories");
 
 function addHistory(questionText, timeTaken, errorCount) {
